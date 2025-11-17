@@ -56,7 +56,7 @@
   <section id="story" class="story">
     <h2>Náš příběh</h2>
     <div class="container">
-      <p>
+      <p id="story-text">
         &nbsp; &nbsp; &nbsp; Slova našeho milého J. R. R. Tolkiena říkají, že “příběh lásky je nejvzácnější vzpomínkou, dávající lidem 
         sílu žít pro dobro”.</br>
         &nbsp; &nbsp; &nbsp; Těmto slovům věříme a jsme moc rádi, že s Vámi můžeme náš příběh sdílet zrovna ve dni, kdy si slíbíme lásku, 
@@ -377,5 +377,15 @@
 </body>
 
 
+
+
+<script>
+  fetch('/content/story.md')
+    .then(r => r.text())
+    .then(t => {
+      document.getElementById('story-text').innerHTML = marked.parse(t);
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 </html>

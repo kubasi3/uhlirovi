@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "obsah"
+    label: "Obsah"
+    files:
+      - label: "Náš příběh"
+        name: "story"
+        file: "content/story.md"
+        fields:
+          - { label: "Text", name: "text", widget: "markdown" }
