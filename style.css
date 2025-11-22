@@ -324,26 +324,7 @@ h2{
     }
 }
 
-.info .info-image {
-    width: 15vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.info .info-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Na mobilu pod sebe */
-@media (max-width: 700px) {
-    .info .info-image {
-        width: 90vw;
-        margin: 2rem 0;
-    }
-}
 
 .story{
     min-height:95vh;
