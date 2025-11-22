@@ -417,6 +417,11 @@ h2{
     flex-direction:column;
     background-color: rgba(255, 255, 255, 0.6); /* bílá, 60 % neprůhlednosti */
 }
+.program .ramecek{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 1rem;
+    padding: 1rem;
+}
 
 .program h2{
     font-size:3.5rem
