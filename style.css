@@ -475,7 +475,7 @@ header{
 .timeline-container {
   position: relative;
   margin: 2rem auto;
-  width: 100rem;
+  width: 70%;
 }
 
 /* seznam uvnitř */
