@@ -216,7 +216,135 @@ h2{
     align-items:flex-start
 }
 
-@media(max-width: 700px){.welcome .text{margin-top:35vh}}.welcome .text h1{color:#000;font-size:3.5rem;margin:0;padding:0}@media(max-width: 700px){.welcome .text h1{font-size:2rem}}.welcome .text p{margin-top:2rem;color:#000;font-size:1.5rem;margin:0;margin-top:3.9rem;padding:0;line-height:1.6rem}.info{width:100%;min-height:50vh;background:#141414;color:#e9e8e8;display:flex;align-items:center;justify-content:center;flex-direction:row;flex-direction:row}@media(max-width: 700px){.info{padding-top:3rem;padding-bottom:3rem}}@media(max-width: 700px){.info{flex-direction:column}}.info .mess,.info .jidlo{width:40vw;font-size:1.2rem;display:flex;align-items:center;justify-content:center;flex-direction:row;flex-direction:row-reverse;justify-content:space-evenly}@media(max-width: 700px){.info .mess,.info .jidlo{width:90vw}}@media(max-width: 700px){.info .mess,.info .jidlo{flex-direction:column-reverse}}.info .mess:hover h2,.info .jidlo:hover h2{color:#f1d581}.info .mess:hover svg,.info .jidlo:hover svg{fill:#f1d581;transform:scale(1.1)}.info .mess .container,.info .jidlo .container{width:23vw;display:flex;align-items:center;justify-content:center;flex-direction:row;flex-direction:column;justify-content:center;justify-items:center;align-items:flex-start}@media(max-width: 700px){.info .mess .container,.info .jidlo .container{width:90vw;text-align:center}}@media(max-width: 700px){.info .mess .container,.info .jidlo .container{align-items:center}}.info .mess .container h2,.info .jidlo .container h2{font-size:2.5rem;margin-bottom:0;transition:.5s}@media(max-width: 700px){.info .mess .container h2,.info .jidlo .container h2{margin-top:0}}.info .mess svg,.info .jidlo svg{height:5rem;fill:#e9e8e8;transition:.5s}@media(max-width: 700px){.info .mess svg,.info .jidlo svg{height:4rem;margin-top:3rem}}
+@media(max-width: 700px){.welcome .text{margin-top:35vh}}.welcome .text h1{color:#000;font-size:3.5rem;margin:0;padding:0}@media(max-width: 700px){.welcome .text h1{font-size:2rem}}.welcome .text p{margin-top:2rem;color:#000;font-size:1.5rem;margin:0;margin-top:3.9rem;padding:0;line-height:1.6rem}
+
+.info{
+    width:100%;
+    min-height:50vh;
+    background:#141414;
+    color:#e9e8e8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    flex-direction:row
+}
+
+@media(max-width: 700px){
+    .info{padding-top:3rem;
+        padding-bottom:3rem
+    }
+}
+
+@media(max-width: 700px){
+    .info{
+        flex-direction:column
+    }
+}
+
+.info .mess,.info .jidlo{
+    width:40vw;
+    font-size:1.2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    flex-direction:row-reverse;
+    justify-content:space-evenly
+}
+
+@media(max-width: 700px){
+    .info .mess,.info .jidlo{
+        width:90vw
+    }
+}
+
+@media(max-width: 700px){
+    .info .mess,.info .jidlo{
+        flex-direction:column-reverse
+    }
+}
+
+.info .mess:hover h2,.info .jidlo:hover h2{
+    color:#f1d581
+}
+
+.info .mess:hover svg,.info .jidlo:hover svg{
+    fill:#f1d581;
+    transform:scale(1.1)
+}
+
+.info .mess .container,.info .jidlo .container{
+    width:23vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    flex-direction:column;
+    justify-content:center;
+    justify-items:center;
+    align-items:flex-start
+}
+
+@media(max-width: 700px){
+    .info .mess .container,.info .jidlo .container{
+        width:90vw;
+        text-align:center
+    }
+}
+
+@media(max-width: 700px){
+    .info .mess .container,.info .jidlo .container{
+        align-items:center
+    }
+}
+
+.info .mess .container h2,.info .jidlo .container h2{
+    font-size:2.5rem;
+    margin-bottom:0;
+    transition:.5s
+}
+
+@media(max-width: 700px){
+    .info .mess .container h2,.info .jidlo .container h2{
+        margin-top:0
+    }
+}
+
+.info .mess svg,.info .jidlo svg{
+    height:5rem;
+    fill:#e9e8e8;
+    transition:.5s
+}
+
+@media(max-width: 700px){
+    .info .mess svg,.info .jidlo svg{
+        height:4rem;
+        margin-top:3rem
+    }
+}
+
+.info .info-image {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Na mobilu pod sebe */
+@media (max-width: 700px) {
+    .info .info-image {
+        width: 90vw;
+        margin: 2rem 0;
+    }
+}
+
 
 .story{
     min-height:95vh;
