@@ -475,6 +475,7 @@ header{
 .timeline-container {
   position: relative;
   margin: 2rem auto;
+  width: 100rem;
 }
 
 /* seznam uvnitř */
@@ -515,7 +516,7 @@ header{
 
 /* tečka na lince */
 .timeline-container ul li::before {
-  content: "";
+  content: none;
   position: absolute;
   top: 1.5rem; /* doladíš podle oka */
   width: 12px;
@@ -525,22 +526,20 @@ header{
   border: 2px solid #b28e5d; /* barva „svatebního zlata“ třeba :) */
 }
 
-/* liché položky vlevo */
-.timeline-container ul li:nth-child(odd) {
-  margin-left: 0;
-  text-align: right;
-  padding-right: 3rem;
-}
-
 .timeline-container ul li:nth-child(odd)::before {
   right: -6px; /* zarovná tečku na střed čáry */
 }
 
-/* sudé položky vpravo */
+.timeline-container ul li:nth-child(odd) {
+  margin-left: 0;
+  text-align: right;
+  padding-right: 4rem;     /* rozumná mezera od čáry */
+}
+
 .timeline-container ul li:nth-child(even) {
-  margin-left: 50%;
+  margin-left: 52%;        /* o kousek víc než 50%, aby sedělo k width:48% */
   text-align: left;
-  padding-left: 3rem;
+  padding-left: 4rem;      /* taky mezera od čáry */
 }
 
 .timeline-container ul li:nth-child(even)::before {
@@ -553,14 +552,22 @@ header{
     left: 10px;
   }
 
-  .timeline-container ul li {
-    width: 100%;
-    margin-left: 0;
-    padding: 1rem 1rem 1rem 2.5rem;
-    text-align: left;
-  }
+.timeline-container ul li {
+  position: relative;
+  list-style: none;
+  width: 48%;              /* dřív 45% nebo 50% */
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
 
   .timeline-container ul li::before {
     left: 0;
   }
+}
+
+.timeline-container ul li .date::after,
+.timeline-container ul li.done .date::after {
+  content: none !important;
+  display: none !important;
 }
