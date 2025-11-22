@@ -470,3 +470,97 @@ h2{
 header{
     position: fixed;
 }
+
+/* obal časové osy */
+.timeline-container {
+  position: relative;
+  margin: 2rem auto;
+}
+
+/* seznam uvnitř */
+.timeline-container ul {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* svislá čára uprostřed */
+.timeline-container ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.8); /* barvu si můžeš změnit */
+  transform: translateX(-50%);
+}
+
+/* jednotlivé položky */
+.timeline-container ul li {
+  position: relative;
+  list-style: none;
+  width: 50%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+/* bublina (čas + text) – aby to bylo v boxíku */
+.timeline-container ul li .date {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* tečka na lince */
+.timeline-container ul li::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem; /* doladíš podle oka */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #b28e5d; /* barva „svatebního zlata“ třeba :) */
+}
+
+/* liché položky vlevo */
+.timeline-container ul li:nth-child(odd) {
+  margin-left: 0;
+  text-align: right;
+  padding-right: 3rem;
+}
+
+.timeline-container ul li:nth-child(odd)::before {
+  right: -6px; /* zarovná tečku na střed čáry */
+}
+
+/* sudé položky vpravo */
+.timeline-container ul li:nth-child(even) {
+  margin-left: 50%;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.timeline-container ul li:nth-child(even)::before {
+  left: -6px;
+}
+
+/* na mobilu pod sebe, bez střídání */
+@media (max-width: 700px) {
+  .timeline-container ul::before {
+    left: 10px;
+  }
+
+  .timeline-container ul li {
+    width: 100%;
+    margin-left: 0;
+    padding: 1rem 1rem 1rem 2.5rem;
+    text-align: left;
+  }
+
+  .timeline-container ul li::before {
+    left: 0;
+  }
+}
