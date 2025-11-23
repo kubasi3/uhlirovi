@@ -421,15 +421,27 @@ h2{
     background-color: rgba(255, 255, 255, 0.6);
     margin: 1rem;
     padding: 1rem;
+    display: inline-block;   /* ať se chová jako “krabička” kolem obsahu */
+    width: fit-content; 
+    align-items: center;
+    border-radius: 8px;
 }
 
 .program h2{
-    font-size:3.5rem
+    font-size:3.5rem;
+    width: fit-content; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .program h3{
     font-size:3rem;
-    margin:0
+    margin:0;
+    width: fit-content; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .program .time{
@@ -452,6 +464,17 @@ h2{
     line-height:1.7rem;
     margin:1rem;
     font-size: 1.5rem;
+    width: fit-content; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.program h2 h3 p{
+    width: fit-content; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media(max-width: 700px){
