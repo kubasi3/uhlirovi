@@ -626,18 +626,11 @@ li.done::marker {
 .ucast {
     width: 100%;
     min-height: 60vh;
-    background-color: #141414;
     color: #e9e8e8;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column
-}
-
-.ucast h2 {
-    font-size: 3rem;
-    margin: 0;
-    color: #f1d581
 }
 
 .ucast p {
@@ -773,7 +766,6 @@ li.done::marker {
     padding-bottom: 5rem;
     width: 100%;
     min-height: 60vh;
-    background: #000;
     color: #e9e8e8;
     display: flex;
     align-items: center;
@@ -781,16 +773,6 @@ li.done::marker {
     flex-direction: column
 }
 
-.fqa h2 {
-    font-size: 3rem;
-    color: #f1d581
-}
-
-@media (max-width: 700px) {
-    .fqa h2 {
-        text-align: center
-    }
-}
 
 .fqa .box {
     width: 100%;
@@ -822,4 +804,32 @@ section {
 
 header {
     width: 100%;
+}
+
+.black {
+    width: 100%;
+    min-height: 60vh;
+    background-color: #141414;
+    color: #e9e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.black h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: #f1d581
+}
+
+.black p {
+    width: 90vw;
+    text-align: center
+}
+
+@media (max-width: 700px) {
+    .black h2 {
+        text-align: center
+    }
 }
