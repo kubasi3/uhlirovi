@@ -831,6 +831,10 @@ header {
 
 .ubytovani {
     background-image: url(assets/image/background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom left;
 }
 
 .ubytovani p {
@@ -841,4 +845,8 @@ header {
 
 .mse{
     background-image: url(assets/image/background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom left;
 }
