@@ -477,6 +477,12 @@ h2{
     margin-right: auto;
 }
 
+.program .counter {
+    text-align: center;
+    font-size: 2rem;
+    width: 30rem;
+}
+
 @media(max-width: 700px){
     .program p{
         width:90vw;
