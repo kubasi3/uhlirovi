@@ -466,12 +466,21 @@ h2 {
     text-align: center;
     font-size: 2rem;
     width: 30rem;
+    max-width: 100%;
 }
 
 @media (max-width: 700px) {
     .program p {
         width: 90vw;
         margin: 0
+    }
+ 
+    .program .counter {
+        width: 90%;
+    }
+
+    .program h2 {
+        font-size: 4rem;
     }
 }
 
@@ -564,27 +573,44 @@ h2 {
 }
 
 /* MOBIL – časová osa pod sebou */
+/* MOBIL – časová osa pod sebou */
 @media (max-width: 700px) {
     .timeline-container {
         width: 90%;
     }
 
+    /* schovat středovou čáru */
     .timeline-container ul::before {
-        left: 10px;
+        display: none;
     }
 
+    /* všechny položky na plnou šířku */
     .timeline-container ul li {
         width: 100%;
-        margin-left: 0;
-        margin-bottom: 1.5rem;
-        padding: 1rem 1rem 1rem 3rem;
-        text-align: left;
+        margin: 0 0 1.5rem 0;
+        padding: 0;
     }
 
+    /* přepíšeme levý/pravý layout z desktopu */
+    .timeline-container ul li:nth-child(odd),
+    .timeline-container ul li:nth-child(even) {
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    /* schovat tečky */
     .timeline-container ul li::before {
-        left: 0;
+        display: none;
+    }
+
+    /* samotná bublina uprostřed */
+    .timeline-container ul li .date {
+        max-width: 280px;
+        margin: 0 auto;
     }
 }
+
 
 div > a {
     text-decoration: none;
