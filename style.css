@@ -567,6 +567,42 @@ p {
     box-sizing: border-box;
 }
 
+/* čas v rámečku – výchozí stav (mobil + fallback) */
+.timeline-container ul li .time {
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+/* DESKTOP – čas vedle rámečku u středové čáry */
+@media (min-width: 701px) {
+    .timeline-container ul li {
+        padding: 1rem 2rem;
+    }
+
+    .timeline-container ul li .time {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+        white-space: nowrap;
+        font-size: 2rem;
+    }
+
+    /* levý sloupec – čas mezi rámečkem a středovou čárou */
+    .timeline-container ul li:nth-child(odd) .time {
+        right: -8rem;
+        text-align: left;
+    }
+
+    /* pravý sloupec – čas mezi rámečkem a středovou čárou */
+    .timeline-container ul li:nth-child(even) .time {
+        left: -8rem;
+        text-align: right;
+    }
+}
+
 /* bublina */
 .timeline-container ul li .date {
     background: rgba(240, 240, 240, 0.7);
