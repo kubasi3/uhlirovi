@@ -686,6 +686,25 @@ li.done::marker {
     color: #141414;
 }
 
+.section-prayer-stones button {
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    border: 2px solid #e9e8e8;
+    color: #e9e8e8;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    transition: .5s;
+}
+
+.section-prayer-stones button:hover {
+    background: #e9e8e8;
+    color: #141414;
+}
+
 /* CONTACTS (LIGHT SECTION) */
 
 .section-contacts {
