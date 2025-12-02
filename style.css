@@ -592,13 +592,13 @@ p {
 
     /* levý sloupec – čas mezi rámečkem a středovou čárou */
     .timeline-container ul li:nth-child(odd) .time {
-        right: -8rem;
+        right: 0rem;
         text-align: left;
     }
 
     /* pravý sloupec – čas mezi rámečkem a středovou čárou */
     .timeline-container ul li:nth-child(even) .time {
-        left: -8rem;
+        left: 0rem;
         text-align: right;
     }
 }
@@ -627,7 +627,7 @@ p {
 .timeline-container ul li:nth-child(odd) {
     margin-left: 0;
     text-align: right;
-    padding-right: 4rem;
+    padding-right: 6rem;
 }
 
 .timeline-container ul li:nth-child(odd)::before {
@@ -637,7 +637,7 @@ p {
 .timeline-container ul li:nth-child(even) {
     margin-left: 52%;
     text-align: left;
-    padding-left: 4rem;
+    padding-left: 6rem;
 }
 
 .timeline-container ul li:nth-child(even)::before {
