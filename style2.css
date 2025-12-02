@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap";
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
 h1,
@@ -23,20 +23,20 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive
 }
 
 a {
     transition: .3s;
-    color: #838383;
+    color: #838383
 }
 
 a:hover {
-    color: #f1d581;
+    color: #f1d581
 }
 
 .and {
-    font-family: "Ms Madi", bolt;
+    font-family: "Ms Madi", bolt
 }
 
 h1 {
@@ -50,56 +50,21 @@ h2 {
     font-size: 4rem;
 }
 
-h3 {
-    text-align: center;
-    font-size: 3rem;
-}
-
 p {
     width: 90%;
-    text-align: left;
+    text-align: lef;
     max-width: 100rem;
     font-size: 1.5rem;
 }
 
-/* UNIFIED SECTIONS */
-
-.section {
+section {
     width: 100%;
     min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
-
-.section--light {
-    background-color: #fffaed;
-    color: #141414;
-}
-
-.section--dark {
-    background-color: #141414;
-    color: #e9e8e8;
-}
-
-.section--dark h2 {
-    margin: 0;
-    color: #f1d581;
-}
-
-@media (max-width: 700px) {
-    .section--dark h2 {
-        text-align: center;
-    }
-}
-
-.section--image {
-    background-color: #000;
-    color: #141414;
-}
-
-/* HEADER / NAV */
 
 .header {
     position: fixed;
@@ -137,15 +102,15 @@ p {
 
 .header .nav a {
     text-decoration: none;
-    color: #838383;
+    color: #838383
 }
 
 .header .nav a:hover {
-    color: #f1d581;
+    color: #f1d581
 }
 
 .header .nav li {
-    cursor: pointer;
+    cursor: pointer
 }
 
 @media (max-width: 700px) {
@@ -198,26 +163,24 @@ p {
     opacity: 1;
     fill: #838383;
     cursor: pointer;
-    transition: .5s;
+    transition: .5s
 }
 
 .menuButton .burger:hover {
-    fill: #f1d581;
+    fill: #f1d581
 }
 
 .menuButton .open {
-    opacity: 0;
+    opacity: 0
 }
 
 .menuButton.active .closed {
-    opacity: 0;
+    opacity: 0
 }
 
 .menuButton.active .open {
-    opacity: 1;
+    opacity: 1
 }
-
-/* WELCOME (IMAGE SECTION) */
 
 .welcome {
     width: 100%;
@@ -227,21 +190,21 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .welcome .welcome-blacker {
-    display: none;
+    display: none
 }
 
 @media (max-width: 700px) {
     .welcome .welcome-blacker {
         display: block;
         width: 100%;
-        background-color: rgba(240, 240, 240, .337254902);
+        background-color: rgba(255, 255, 255, .337254902);
         position: absolute;
         top: 0;
-        height: 95vh;
+        height: 95vh
     }
 }
 
@@ -252,23 +215,23 @@ p {
     z-index: -10;
     margin: 0;
     transition: .5s;
-    opacity: .7;
+    opacity: .7
 }
 
 .welcome .welcome-image:hover {
-    opacity: 1;
+    opacity: 1
 }
 
 .welcome .welcome-image img {
     width: 100%;
     margin: 0;
     height: 95vh;
-    object-fit: cover;
+    object-fit: cover
 }
 
 @media (max-width: 700px) {
     .welcome .welcome-image img {
-        object-position: right;
+        object-position: right
     }
 }
 
@@ -285,7 +248,7 @@ p {
 
 @media (max-width: 700px) {
     .welcome .text {
-        margin-top: 35vh;
+        margin-top: 35vh
     }
 }
 
@@ -296,14 +259,15 @@ p {
     margin: 0;
     margin-top: 3.9rem;
     padding: 0;
-    line-height: 1.6rem;
+    line-height: 1.6rem
 }
 
-/* INFO (DARK SECTION) */
-
+/* hlavní sekce */
 .info {
     width: 100%;
-    padding: 3rem 1rem;
+    background: #141414;
+    color: #e9e8e8;
+    padding: 3rem 1rem;         /* trocha vnitřního odsazení, aby nic nelepilo na okraj */
     box-sizing: border-box;
 }
 
@@ -314,7 +278,8 @@ p {
     align-items: flex-start;
     gap: 3rem;
     width: 80%;
-    flex-wrap: wrap;
+    /* margin: 0 auto;             vystředění na stránce */
+    flex-wrap: wrap;            /* kdyby bylo málo místa, zalomí se */
 }
 
 /* jeden blok: obrázek + text */
@@ -322,7 +287,7 @@ p {
     display: flex;
     align-items: flex-end;
     gap: 1.5rem;
-    flex: 1 1 30rem;
+    flex: 1 1 30rem;          
     box-sizing: border-box;
 }
 
@@ -332,6 +297,7 @@ p {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    /* margin: 1rem; */
 }
 
 /* text – nadpis nad odstavcem */
@@ -370,21 +336,25 @@ p {
     max-width: 100%;
 }
 
-/* STORY (LIGHT SECTION) */
+/* STORY */
 
 .story {
     min-height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
+}
+
+.story h2 {
+    font-size: 3rem
 }
 
 .story .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row
 }
 
 .story .container img {
@@ -392,33 +362,33 @@ p {
     width: 30vw;
     object-fit: cover;
     transition: .5s;
-    margin: 1rem;
+    margin: 1rem
 }
 
 @media (max-width: 700px) {
     .story .container img {
         width: 90vw;
         margin: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 2rem
     }
 }
 
 .story .container p {
     width: 30vw;
     line-height: 1.7rem;
-    margin: 1rem;
+    margin: 1rem
 }
 
 @media (max-width: 700px) {
     .story .container p {
         width: 90vw;
-        margin: 0;
+        margin: 0
     }
 }
 
 @media (max-width: 700px) {
     .story .container {
-        flex-direction: column;
+        flex-direction: column
     }
 }
 
@@ -436,7 +406,7 @@ p {
     font-weight: 500;
 }
 
-/* PROGRAM (IMAGE SECTION) */
+/* PROGRAM */
 
 .program {
     min-height: 95vh;
@@ -451,7 +421,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(240, 240, 240, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
     text-shadow:
         -1px -1px 0 #fff,
         1px -1px 0 #fff,
@@ -459,8 +429,8 @@ p {
         1px 1px 0 #fff;
 }
 
-.program .program-card {
-    background-color: rgba(240, 240, 240, 0.7);
+.program .ramecek {
+    background-color: rgba(255, 255, 255, 0.6);
     margin: 1rem;
     padding: 1rem;
     display: inline-block;
@@ -488,7 +458,7 @@ p {
 
 .program .time {
     font-size: 1.5rem;
-    padding-top: 0;
+    padding-top: 0
 }
 
 .program p {
@@ -513,9 +483,9 @@ p {
 @media (max-width: 700px) {
     .program p {
         width: 90vw;
-        margin: 0;
+        margin: 0
     }
-
+ 
     .program .counter {
         width: 90%;
     }
@@ -525,7 +495,7 @@ p {
     }
 }
 
-/* ČASOVÁ OSA */
+/* ČASOVÁ OSA – základ */
 
 .timeline-container {
     position: relative;
@@ -567,7 +537,7 @@ p {
 
 /* bublina */
 .timeline-container ul li .date {
-    background: rgba(240, 240, 240, 0.7);
+    background: rgba(255, 255, 255, 0.6);
     padding: 1rem;
     border-radius: 8px;
     color: #141414;
@@ -614,6 +584,7 @@ p {
 }
 
 /* MOBIL – časová osa pod sebou */
+/* MOBIL – časová osa pod sebou */
 @media (max-width: 700px) {
     .timeline-container {
         width: 90%;
@@ -651,23 +622,34 @@ p {
     }
 }
 
+
 div > a {
     text-decoration: none;
-    color: #141414;
+    color: #141414
 }
 
 li.done::marker {
-    display: none !important;
+    display: none !important
 }
 
-/* RSVP (DARK SECTION) */
+/* ÚČAST */
 
-.section-rsvp p {
+.ucast {
+    width: 100%;
+    min-height: 60vh;
+    color: #e9e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.ucast p {
     width: 90vw;
-    text-align: center;
+    text-align: center
 }
 
-.section-rsvp button {
+.ucast button {
     font-size: 1.2rem;
     background: none;
     outline: none;
@@ -678,113 +660,132 @@ li.done::marker {
     cursor: pointer;
     text-transform: uppercase;
     font-family: "Dosis", sans-serif;
-    transition: .5s;
+    transition: .5s
 }
 
-.section-rsvp button:hover {
+.ucast button:hover {
     background: #e9e8e8;
-    color: #141414;
+    color: #141414
 }
 
-/* CONTACTS (LIGHT SECTION) */
+/* KONTAKTY */
 
-.section-contacts {
+.kontakty {
     padding-top: 3rem;
     width: 100%;
     min-height: 90vh;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='170' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.09' fill='%23e8e8e8' cx='45' cy='45' r='25'/%3E%3Cg fill='%23d4d4d4' fill-opacity='0.09'%3E%3Ccircle cx='0' cy='90' r='14'/%3E%3Ccircle cx='90' cy='90' r='14'/%3E%3Ccircle cx='90' cy='0' r='14'/%3E%3Ccircle cx='0' cy='0' r='14'/%3E%3C/g%3E%3C/svg%3E");
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
+.kontakty h2 {
+    font-size: 3rem
+}
 
-.section-contacts p {
+@media (max-width: 700px) {
+    .kontakty h2 {
+        text-align: center
+    }
+}
+
+.kontakty h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.kontakty p {
     margin-top: 0;
     margin-bottom: 10px;
     width: 80vw;
     line-height: 1.7rem;
-    margin: 1rem;
+    margin: 1rem
 }
 
 @media (max-width: 700px) {
-    .section-contacts p {
+    .kontakty p {
         width: 90vw;
-        margin: 0;
+        margin: 0
     }
 }
 
-.section-contacts .container {
+.kontakty .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center
 }
 
 @media (max-width: 700px) {
-    .section-contacts .container {
-        flex-direction: column;
+    .kontakty .container {
+        flex-direction: column
     }
 }
 
-.section-contacts .container .contact {
+.kontakty .container .contact {
     margin: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
 @media (max-width: 700px) {
-    .section-contacts .container .contact {
+    .kontakty .container .contact {
         margin: 1.5rem;
-        margin-bottom: 0;
+        margin-bottom: 0
     }
 }
 
-.section-contacts .container .contact img {
+.kontakty .container .contact img {
     width: 12rem;
     height: 12rem;
     max-width: none;
     border-radius: 50%;
     border: solid 3px #141414;
-    transition: .5s;
+    transition: .5s
 }
 
-.section-contacts .container .contact img:hover {
-    transform: scale(1.05);
+.kontakty .container .contact img:hover {
+    transform: scale(1.05)
 }
 
-.section-contacts .container .contact ul {
+.kontakty .container .contact ul {
     list-style: none;
     padding: 0;
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
-.section-contacts .container .contact ul a {
+.kontakty .container .contact ul a {
     font-size: 1.2rem;
-    text-decoration: none;
+    text-decoration: none
 }
 
-/* FAQ (DARK SECTION) */
+/* FAQ */
 
-.section-faq {
+.fqa {
     padding-top: 5rem;
     padding-bottom: 5rem;
     width: 100%;
     min-height: 60vh;
+    color: #e9e8e8;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
-.section-faq .box {
+
+.fqa .box {
     width: 100%;
     margin-bottom: 2rem;
     font-size: 1.15rem;
@@ -792,48 +793,60 @@ li.done::marker {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start
 }
 
-.section-faq .box p {
+.fqa .box p {
+    
     margin: 0;
-    margin-bottom: .3rem;
+    margin-bottom: .3rem
 }
 
-.section-faq .box .question {
-    font-weight: 600;
+.fqa .box .question{
+    font-weight:600
 }
 
-/* PRAYER STONES (DARK SECTION) */
+/* OBECNÉ */
 
-.section-prayer-stones p {
-    width: 80vw;
+header {
+    width: 100%;
 }
 
-/* MASS (LIGHT SECTION) */
-
-.section-mass p {
-    width: 80vw;
+.black {
+    
+    background-color: #141414;
+    color: #e9e8e8;
 }
 
-/* ACCOMMODATION (IMAGE SECTION) */
+.black h2 {
+    margin: 0;
+    color: #f1d581
+}
 
-.section-accommodation {
+@media (max-width: 700px) {
+    .black h2 {
+        text-align: center
+    }
+}
+
+.ubytovani {
     background-image: url(assets/image/background2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom left;
 }
 
-.section-accommodation p {
-    background: rgba(240, 240, 240, 0.7);
+.ubytovani p {
+    background: rgba(255, 255, 255, 0.6);
     padding: 1rem;
     border-radius: 8px;
 }
 
-/* GENERAL */
-
-header {
-    width: 100%;
+.mse{
+    background-image: url(assets/image/background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom left;
 }
