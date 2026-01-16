@@ -283,15 +283,38 @@ p {
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-    position: relative;
-    transform: translate(-10rem, -5rem);
+
+    /* důležité: ať to neleze na hranu */
+    box-sizing: border-box;
+    padding: 0 1rem;
+
+    /* responsivní posun: na velké lehce vlevo/nahoru, na malé se ztratí */
+    transform: translate(
+        clamp(-10rem, -10vw, 0rem),
+        clamp(-5rem, -5vh, 0rem)
+    );
 }
+
 
 @media (max-width: 700px) {
     .welcome .text {
         margin-top: 35vh;
-        transform: translate(-5rem, -2.5rem);
+        transform: none; /* na mobilu žádné "ujetí" */
     }
+}
+
+.welcome .text h1 {
+    font-size: clamp(2.6rem, 9vw, 5rem);
+    line-height: 1.05;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+.welcome .text h2 {
+    font-size: clamp(1.6rem, 7vw, 4rem);
+    line-height: 1.15;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 }
 
 .welcome .text p {
@@ -405,6 +428,7 @@ p {
         width: 90vw;
         margin: 0;
         margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 }
 
