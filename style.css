@@ -225,15 +225,22 @@ p {
     width: 100%;
     min-height: 95vh;
     background: #e9e8e8;
-    z-index: -1;
+    position: relative; /* aby absolutní vrstvy zůstaly uvnitř hero sekce */
+    z-index: 0;         /* pozor: po přidání position už z-index funguje */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+/* světlé „mléčné“ překrytí – nově i na desktopu */
 .welcome .welcome-blacker {
-    display: none;
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(240, 240, 240, .337254902);
+    z-index: 1;
+    pointer-events: none;
 }
 
 @media (max-width: 700px) {
@@ -250,8 +257,9 @@ p {
 .welcome .welcome-image {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    z-index: -10;
+    z-index: 0; /* pod překrytím */
     margin: 0;
     transition: .5s;
     opacity: .7;
@@ -277,29 +285,32 @@ p {
 .welcome .text {
     max-width: 1200px;
     width: 90vw;
-    z-index: 5;
+    z-index: 2; /* nad překrytím */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-align: left;
 
-    /* důležité: ať to neleze na hranu */
+    /* ať text nikdy „nelepí“ na okraj */
     box-sizing: border-box;
     padding: 0 1rem;
 
-    /* responsivní posun: na velké lehce vlevo/nahoru, na malé se ztratí */
-    transform: translate(
-        clamp(-10rem, -10vw, 0rem),
-        clamp(-5rem, -5vh, 0rem)
-    );
+    transform: none; /* základ – bez posunu (posun řešíme jen na desktopu) */
 }
 
+/* Desktop/tablet: posuň o -10rem/-5rem, ale nedovol, aby první písmena mizela */
+@media (min-width: 701px) {
+    .welcome .text {
+        width: min(90vw, 1200px, calc(100vw - 22rem));
+        transform: translate(-10rem, -5rem);
+    }
+}
 
 @media (max-width: 700px) {
     .welcome .text {
         margin-top: 35vh;
-        transform: none; /* na mobilu žádné "ujetí" */
+        transform: none;
     }
 }
 
