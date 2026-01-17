@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Svatební stránky"
+  },
+  "aria": {
+    "menuLabel": "Menu"
+  },
+  "language": {
+    "label": "Jazyk",
+    "ariaLabel": "Výběr jazyka"
+  },
+  "nav": {
+    "story": "Náš příběh",
+    "info": "Rychlý přehled",
+    "program": "Svatební den",
+    "prayer": "Modlitba",
+    "mass": "Mše svatá",
+    "accommodation": "Ubytování",
+    "rsvp": "Potvrzení účasti",
+    "contacts": "Kontakty"
+  },
+  "hero": {
+    "names": "Vašek a Kristýnka",
+    "subtitle": "Ať půjdeme kamkoliv, chceme jít spolu"
+  },
+  "story": {
+    "title": "Náš příběh",
+    "p1": "&nbsp; &nbsp; &nbsp; Jednoho dne se naše pohledy setkaly a to mi - bez nadsázky - změnilo život. Jsem vděčná, že je Vašek ochotný navázat se se mnou na lano a překonávat hory i údolí našeho společného příběhu.",
+    "p2": "&nbsp; &nbsp; &nbsp; Potkali jsme se na pouti, a nějak jsme si nevšimli, že už skončila. A tak teď putujeme životem spolu."
+  },
+  "info": {
+    "ceremony": {
+      "title": "Obřad",
+      "textBefore": "Svatební mše svatá bude slavena v",
+      "linkText": "kostele Panny Marie",
+      "textAfter": "v 10 hodin"
+    },
+    "celebration": {
+      "title": "Svatební oslava",
+      "text": "Se uskuteční v areálu fary hned vedle kostela"
+    }
+  },
+  "program": {
+    "title": "Svatební den se blíží",
+    "dateText": "Těšíme se na Vás 6. června 2026",
+    "introText": "&nbsp; &nbsp; &nbsp; Vstupujeme do nové kapitoly našeho společného života a budeme moc vděční, když tento den prožijete s námi. Těšíme se na Vás všechny - na naši rodinu, přátele i všechny blízké.",
+    "scheduleTitle": "Harmonogram",
+    "timeline": {
+      "arrival": "Příjezd a parkování",
+      "mass": "Svatební mše svatá",
+      "photosChurch": "Focení před kostelem",
+      "lunch": "Oběd",
+      "photosCouple": "Focení novomanželů",
+      "cake": "Krájení dortu",
+      "musicDance": "Živá hudba a tanec",
+      "screening": "Promítání"
+    },
+    "note": "Harmonogram je orientační. Neměnný je pouze čas mše svaté."
+  },
+  "prayer": {
+    "title": "Modlitební kamínky",
+    "p1": "Chceš i na dálku přispět ke zdaru naší svatby a nevíš jak na to? Máme tu příležitost právě pro Tebe! Stačí, když se na chvíli zastavíš a zamyslíš se. Stačí jen kratičké přání či modlitba, nebo i citát pro tuto příležitost. Kraťoučký text, který si napíšeme na oblázek. Ty nám doufejme vydláždí cestu, až ke dni D.",
+    "p2": "P. S. Přání do manželství si klidně také promysli, ale na to bude příležitost později.",
+    "button": "Pošli modlitbu"
+  },
+  "mass": {
+    "title": "Mše svatá",
+    "p1": "Svatební obřad bude součástí <strong>mše svaté</strong>, která je pro nás tou nejdůležitější částí celého dne. Potrvá zhruba <strong>hodinu</strong> až <strong>hodinu a půl</strong>.",
+    "p2": "Během mše se věřící střídají v různých postojích – stojí, sedí nebo klečí. Většina lidí se jednoduše řídí tím, co dělají ostatní, ale pro tebe to rozhodně není povinnost. Udělej jen to, v čem se cítíš dobře. Žádné gesto není nutné.",
+    "p3": "Součástí mše je také <strong>svaté přijímání</strong>. Věřící, kteří jsou připraveni, jdou přijmout eucharistii. Pokud k této svátosti přistupovat nemůžeš nebo nechceš, máš dvě jednoduché možnosti:",
+    "p4": "<strong>• zůstat sedět</strong> na svém místě, nebo<br><strong>• přidat se do řady</strong> a poprosit kněze o požehnání.",
+    "p5": "Pokud zvolíš druhou možnost, stačí, když si před ústa položíš <strong>zdvižený ukazováček</strong> (stejné gesto, jako když žádáš o ticho). Kněz díky tomu pozná, že nejdeš k přijímání, ale právě pro <strong>požehnání</strong>."
+  },
+  "accommodation": {
+    "title": "Ubytování",
+    "p1": "V těsné blízkosti kostela je areál, do něhož se přesuneme po svatební mši svaté. Možnosti ubytování jsou v pokoji přímo na faře nebo ve venkovních chatkách. Na faře jsou 4 pokoje po 3 až 6 lůžkách - celkem 17míst. Venkovních chatek je osm, každá pro čtyři osoby - celkem 32 míst."
+  },
+  "rsvp": {
+    "title": "Potvrzení účasti",
+    "p1": "Prosíme o vyplnění formuláře, ať víme, zda-li s vámi můžeme počítat.",
+    "button": "Potvrdit účast"
+  },
+  "contacts": {
+    "title": "Naše kontakty",
+    "intro": "Nevíš? Neznáš? Nerozumíš? <br> Nevíš-li si rady: Oslov naše kamarády",
+    "organisation": {
+      "title": "Organizace svatby",
+      "role": {
+        "mother": "maminka",
+        "brideWitness": "svědkyně nevěsty",
+        "groomWitness": "svědek ženicha"
+      }
+    },
+    "drivers": {
+      "title": "Řidiči",
+      "text": "&nbsp; &nbsp; &nbsp; Naši skvělí řidiči Vás bezpečně dopraví z večerní oslavy domů, popřípadě Vám po obědě pomohou dostat Vaše auto z místa oslavy kam budete potřebovat."
+    },
+    "newlyweds": {
+      "title": "Novomanželé"
+    }
+  },
+  "faq": {
+    "title": "Odpovědi na Vaše otázky",
+    "q1": "Kde máme parkovat?",
+    "a1": "Parkování je možné dole v zatáčce před kostelem, u kaple Panny Marie Salettské nebo v Javorníku, odkud tě naši řidiči přivezou. Vše je přehledně označeno.",
+    "q2": "Jaký je dress code?",
+    "a2": "Naše svatba nebude tak docela seriózní událost, ale rádi tě uvidíme v pěkném a pohodlném oblečení. Hlavní je to společně oslavit.",
+    "q3": "Jak je to s jídlem - bude i vegetariánská/bezlepková možnost?",
+    "a3": "Ano, dej nám prosím pomocí formuláře o potvrzení účasti vědět, pokud máš speciální požadavky. Rádi se přizpůsobíme, jestliže to bude alespoň trochu v našich silách.",
+    "q4": "Bude možnost v místě oslavy přespat?",
+    "a4": "Ano, budeme za tvou přítomnost moc rádi. Je možné přijet na faru už o několik dní dřív a stejně tak po svatbě nemusíš hned odjíždět. Více informací najdeš v záložce Ubytování.",
+    "q5": "Máš nápad na zábavný/zajímavý program?",
+    "a5": "Za každý nápad budeme rádi. Jeho realizaci, prosíme, prober s Pavlínkou - svědkyní nevěsty.",
+    "q6": "Rád bych novomanžele obdaroval…",
+    "a6": "…",
+    "q7": "Můžu pro Vás ještě něco udělat?",
+    "a7": "Ano! Budeme moc rádi, když se zapojíš do našich Modlitebních kamínků, jejichž texty si společně přečteme dva týdny před svatbou během přípravného víkendu v Travné.<br>A potěší nás i to, když na nás budeš myslet jakýmkoliv způsobem –<br>- na nás jako novomanžele, abychom do manželství vstoupili s láskou, odpuštěním, jednotou a pokojem<br>- na přípravy, aby byly časem setkávání, radosti a společného tvoření<br>- a na všechny zúčastněné, aby náš den byl požehnáním pro každého, kdo přijde"
+  },
+  "countdown": {
+    "prefixFuture": "Protože zbývá pouze ",
+    "prefixPast": "Od začátku svatby uběhlo již ",
+    "unitDay": "d",
+    "unitHour": "h",
+    "unitMinute": "m",
+    "unitSecond": "s"
+  },
+  "alt": {
+    "meadow": "Louka",
+    "photoRock": "Foto na skále",
+    "photoPilgrimage": "Foto z pouti",
+    "ceremony": "Obřad",
+    "parish": "Areál fary",
+    "mom": "Lydie Uhlířová",
+    "pavlinka": "Pavlínka Regnerová",
+    "mojmir": "Mojmír Michálek",
+    "driver": "Michal Kozub",
+    "bride": "Kristýna Kwasniaková",
+    "groom": "Vašek Uhlíř"
+  }
+}

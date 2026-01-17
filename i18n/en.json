@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Wedding website"
+  },
+  "aria": {
+    "menuLabel": "Menu"
+  },
+  "language": {
+    "label": "Language",
+    "ariaLabel": "Select language"
+  },
+  "nav": {
+    "story": "Our story",
+    "info": "Quick overview",
+    "program": "Wedding day",
+    "prayer": "Prayer",
+    "mass": "Mass",
+    "accommodation": "Accommodation",
+    "rsvp": "RSVP",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "names": "Vašek and Kristýnka",
+    "subtitle": "Wherever we go, we want to go together"
+  },
+  "story": {
+    "title": "Our story",
+    "p1": "&nbsp; &nbsp; &nbsp; One day our eyes met, and that—without exaggeration—changed my life. I’m grateful that Vašek is willing to tie in with me and climb through the mountains and valleys of our shared story.",
+    "p2": "&nbsp; &nbsp; &nbsp; We met on a pilgrimage, and somehow we didn’t notice it had already ended. And so now we keep walking through life together."
+  },
+  "info": {
+    "ceremony": {
+      "title": "Ceremony",
+      "textBefore": "The wedding Mass will be celebrated in",
+      "linkText": "the Church of Our Lady",
+      "textAfter": "at 10:00"
+    },
+    "celebration": {
+      "title": "Wedding reception",
+      "text": "Will take place in the parish grounds right next to the church"
+    }
+  },
+  "program": {
+    "title": "The wedding day is coming",
+    "dateText": "We look forward to seeing you on June 6, 2026",
+    "introText": "&nbsp; &nbsp; &nbsp; We are stepping into a new chapter of our life together and we’ll be truly grateful if you spend this day with us. We can’t wait to see all of you—our family, friends, and everyone close to us.",
+    "scheduleTitle": "Schedule",
+    "timeline": {
+      "arrival": "Arrival & parking",
+      "mass": "Wedding Mass",
+      "photosChurch": "Photos in front of the church",
+      "lunch": "Lunch",
+      "photosCouple": "Couple photo session",
+      "cake": "Cake cutting",
+      "musicDance": "Live music & dancing",
+      "screening": "Screening"
+    },
+    "note": "The schedule is approximate. Only the Mass time is fixed."
+  },
+  "prayer": {
+    "title": "Prayer stones",
+    "p1": "Would you like to support our wedding from afar and aren’t sure how? Here’s a chance just for you! Pause for a moment and reflect. A short wish or prayer—or even a quote for this occasion—is enough. We’ll write your short text on a small stone. We hope they’ll pave the way all the way to our big day.",
+    "p2": "P.S. Feel free to think of a wedding wish for us as well—but there will be time for that later.",
+    "button": "Send a prayer"
+  },
+  "mass": {
+    "title": "Holy Mass",
+    "p1": "The wedding ceremony will take place during a <strong>Holy Mass</strong>, which is the most important part of the whole day for us. It will last about <strong>one hour</strong> to <strong>an hour and a half</strong>.",
+    "p2": "During Mass, people switch between different postures—standing, sitting, or kneeling. Most people simply follow what others are doing, but for you this is definitely not an obligation. Do only what you feel comfortable with. No gesture is required.",
+    "p3": "Mass also includes <strong>Holy Communion</strong>. Those who are prepared come forward to receive the Eucharist. If you can’t or don’t want to receive this sacrament, you have two simple options:",
+    "p4": "<strong>• stay seated</strong> in your place, or<br><strong>• join the line</strong> and ask the priest for a blessing.",
+    "p5": "If you choose the second option, simply place your <strong>raised index finger</strong> in front of your lips (the same gesture as asking for silence). The priest will understand that you are not receiving Communion, but coming for a <strong>blessing</strong>."
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "p1": "Right next to the church there is an area where we will move after the wedding Mass. Accommodation is available either in rooms at the parish house or in outdoor cabins. There are 4 rooms in the parish house with 3 to 6 beds—17 beds total. There are eight outdoor cabins, each for four people—32 beds total."
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "p1": "Please fill in the form so we know whether we can count on you.",
+    "button": "Confirm attendance"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "intro": "Questions? Not sure? Confused? <br> If you need help: reach out to our friends",
+    "organisation": {
+      "title": "Wedding organisation",
+      "role": {
+        "mother": "mother",
+        "brideWitness": "bride’s witness",
+        "groomWitness": "groom’s witness"
+      }
+    },
+    "drivers": {
+      "title": "Drivers",
+      "text": "&nbsp; &nbsp; &nbsp; Our wonderful drivers can safely take you home from the evening reception, and after lunch they can also help you move your car from the venue to wherever you need."
+    },
+    "newlyweds": {
+      "title": "The newlyweds"
+    }
+  },
+  "faq": {
+    "title": "Answers to your questions",
+    "q1": "Where should we park?",
+    "a1": "Parking is possible down the bend below the church, by the Chapel of Our Lady of La Salette, or in Javorník, from where our drivers will bring you. Everything is clearly marked.",
+    "q2": "What’s the dress code?",
+    "a2": "Our wedding won’t be a completely formal event, but we’ll be happy to see you in nice and comfortable clothes. The main thing is to celebrate together.",
+    "q3": "What about food—will there be vegetarian / gluten-free options?",
+    "a3": "Yes. Please let us know via the RSVP form if you have special requirements. We’ll be happy to adapt if it’s at least somewhat within our possibilities.",
+    "q4": "Can we stay overnight at the venue?",
+    "a4": "Yes, we’ll be very happy if you can stay. You can come to the parish house a few days early, and you don’t have to leave right after the wedding. More information is in the Accommodation section.",
+    "q5": "Do you have an idea for a fun / interesting activity?",
+    "a5": "We’ll be happy for any idea. Please coordinate its implementation with Pavlínka—the bride’s witness.",
+    "q6": "I would like to give the newlyweds a gift…",
+    "a6": "…",
+    "q7": "Can I do anything else to help?",
+    "a7": "Yes! We’ll be very happy if you join our Prayer Stones—together we’ll read the texts two weeks before the wedding during our preparation weekend in Travná.<br>And it would also mean a lot if you keep us in mind in any way—<br>- for us as newlyweds, that we enter marriage with love, forgiveness, unity, and peace<br>- for the preparations, that they are a time of meeting, joy, and creating together<br>- and for everyone involved, that our day becomes a blessing for everyone who comes"
+  },
+  "countdown": {
+    "prefixFuture": "Only ",
+    "prefixPast": "It has been ",
+    "unitDay": "d",
+    "unitHour": "h",
+    "unitMinute": "m",
+    "unitSecond": "s"
+  },
+  "alt": {
+    "meadow": "Meadow",
+    "photoRock": "Photo on the rock",
+    "photoPilgrimage": "Photo from the pilgrimage",
+    "ceremony": "Ceremony",
+    "parish": "Parish grounds",
+    "mom": "Lydie Uhlířová",
+    "pavlinka": "Pavlínka Regnerová",
+    "mojmir": "Mojmír Michálek",
+    "driver": "Michal Kozub",
+    "bride": "Kristýna Kwasniaková",
+    "groom": "Vašek Uhlíř"
+  }
+}

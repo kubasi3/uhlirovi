@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs" data-default-lang="cs">
+<html lang="cs">
 
 <head>
   <meta charset="UTF-8" />
@@ -16,7 +16,7 @@
 <body>
   <header class="header">
     <button class="menuButton" id="button_menu" type="button" aria-label="Menu" aria-expanded="false"
-      aria-controls="section_menu" data-i18n-attr="aria-label:aria.menuLabel">
+      aria-controls="section_menu">
       <svg class="closed burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
         <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
       </svg>
@@ -26,21 +26,16 @@
       </svg>
     </button>
 
-    <div class="lang-switcher">
-      <label class="sr-only" for="lang_switcher" data-i18n="language.label">Jazyk</label>
-      <select id="lang_switcher" name="lang" aria-label="Language"></select>
-    </div>
-
     <nav class="nav" id="section_menu">
       <ul>
-        <li><a href="#story" data-i18n="nav.story">Náš příběh</a></li>
-        <li><a href="#info" data-i18n="nav.info">Rychlý přehled</a></li>
-        <li><a href="#program" data-i18n="nav.program">Svatební den</a></li>
-        <li><a href="#prayer-stones" data-i18n="nav.prayer">Modlitba</a></li>
-        <li><a href="#mass" data-i18n="nav.mass">Mše svatá</a></li>
-        <li><a href="#accommodation" data-i18n="nav.accommodation">Ubytování</a></li>
-        <li><a href="#rsvp" data-i18n="nav.rsvp">Potvrzení účasti</a></li>
-        <li><a href="#contacts" data-i18n="nav.contacts">Kontakty</a></li>
+        <li><a href="#story">Náš příběh</a></li>
+        <li><a href="#info">Rychlý přehled</a></li>
+        <li><a href="#program">Svatební den</a></li>
+        <li><a href="#prayer-stones">Modlitba</a></li>
+        <li><a href="#mass">Mše svatá</a></li>
+        <li><a href="#accommodation">Ubytování</a></li>
+        <li><a href="#rsvp">Potvrzení účasti</a></li>
+        <li><a href="#contacts">Kontakty</a></li>
       </ul>
     </nav>
   </header>
@@ -50,34 +45,34 @@
     <section class="section section--image welcome">
       <div class="welcome-blacker"></div>
       <div class="welcome-image">
-        <img src="assets/image/louka.jpg" alt="Louka" data-i18n-attr="alt:alt.meadow" />
+        <img src="assets/image/louka.jpg" alt="Louka" />
       </div>
       <div class="text">
-        <h1 data-i18n="hero.names">Vašek a Kristýnka</h1>
-        <h2 data-i18n="hero.subtitle">Ať půjdeme kamkoliv, chceme jít spolu</h2>
+        <h1>Vašek a Kristýnka</h1>
+        <h2>Ať půjdeme kamkoliv, chceme jít spolu</h2>
       </div>
     </section>
 
     <!-- LIGHT SECTION -->
     <section id="story" class="section section--light story">
-      <h2 data-i18n="story.title">Náš příběh</h2>
+      <h2>Náš příběh</h2>
 
       <div class="container">
         <p class="story-text">
-          <span data-i18n-html="story.p1">&nbsp; &nbsp; &nbsp; Jednoho dne se naše pohledy setkaly a to mi - bez nadsázky - změnilo život.
-            Jsem vděčná, že je Vašek ochotný navázat se se mnou na lano a překonávat hory i údolí našeho společného příběhu.</span>
+          &nbsp; &nbsp; &nbsp; Jednoho dne se naše pohledy setkaly a to mi - bez nadsázky - změnilo život.
+          Jsem vděčná, že je Vašek ochotný navázat se se mnou na lano a překonávat hory i údolí našeho společného příběhu.
           <br>
           <span class="story-signature">Kyra</span>
         </p>
-        <img src="assets/image/naSkale.jpg" alt="Foto na skále" data-i18n-attr="alt:alt.photoRock" />
+        <img src="assets/image/naSkale.jpg" alt="Foto na skále" />
       </div>
 
       <div class="container">
-        <img src="assets/image/pot.jpeg" alt="Foto z pouti" data-i18n-attr="alt:alt.photoPilgrimage" />
+        <img src="assets/image/pot.jpeg" alt="Foto z pouti" />
         <p class="story-text">
-          <span data-i18n-html="story.p2">&nbsp; &nbsp; &nbsp; Potkali jsme se na pouti, a nějak jsme si nevšimli, že už skončila. A tak teď putujeme
-            životem
-            spolu.</span>
+          &nbsp; &nbsp; &nbsp; Potkali jsme se na pouti, a nějak jsme si nevšimli, že už skončila. A tak teď putujeme
+          životem
+          spolu.
           <br>
           <span class="story-signature">Čůd</span>
         </p>
@@ -89,22 +84,22 @@
       <div class="info-row">
 
         <div class="info-item">
-          <img src="assets/image/kostel2.JPG" width="200" height="200" alt="Obřad" data-i18n-attr="alt:alt.ceremony" />
+          <img src="assets/image/kostel2.JPG" width="200" height="200" alt="Obřad" />
           <div class="info-text">
-            <h2 data-i18n="info.ceremony.title">Obřad</h2>
+            <h2>Obřad</h2>
             <p>
-              <span data-i18n="info.ceremony.textBefore">Svatební mše svatá bude slavena v</span>
-              <a href="https://mapy.com/s/fokopeboje" target="_blank" rel="noopener" data-i18n="info.ceremony.linkText">kostele Panny Marie</a>
-              <span data-i18n="info.ceremony.textAfter">v 10 hodin</span>
+              Svatební mše svatá bude slavena v
+              <a href="https://mapy.com/s/fokopeboje" target="_blank" rel="noopener">kostele Panny Marie</a>
+              v 10 hodin
             </p>
           </div>
         </div>
 
         <div class="info-item">
-          <img src="assets/image/fara.jpeg" width="200" height="200" alt="Areál fary" data-i18n-attr="alt:alt.parish" />
+          <img src="assets/image/fara.jpeg" width="200" height="200" alt="Areál fary" />
           <div class="info-text">
-            <h2 data-i18n="info.celebration.title">Svatební oslava</h2>
-            <p data-i18n="info.celebration.text">Se uskuteční v areálu fary hned vedle kostela</p>
+            <h2>Svatební oslava</h2>
+            <p>Se uskuteční v areálu fary hned vedle kostela</p>
           </div>
         </div>
 
@@ -113,92 +108,92 @@
 
     <!-- IMAGE SECTION -->
     <section id="program" class="section section--image program">
-      <h2 data-i18n="program.title">Svatební den se blíží</h2>
+      <h2>Svatební den se blíží</h2>
       <div class="program-card">
-        <p class="text-center" data-i18n="program.dateText">
+        <p class="text-center">
           Těšíme se na Vás 6. června 2026
         </p>
 
         <h3 class="counter" id="counter"></h3>
       </div>
       <div class="program-card">
-        <p data-i18n-html="program.introText">
+        <p>
           &nbsp; &nbsp; &nbsp; Vstupujeme do nové kapitoly našeho společného života a budeme moc vděční, když tento den
           prožijete s námi. Těšíme se na Vás všechny - na naši rodinu, přátele i všechny blízké.
         </p>
       </div>
 
-      <h2 data-i18n="program.scheduleTitle">Harmonogram</h2>
+      <h2>Harmonogram</h2>
       <div class="timeline-container">
         <ul>
           <li class="done">
             <div class="date">
               <span class="time">9:30</span>
-              <h3 data-i18n="program.timeline.arrival">Příjezd a parkování</h3>
+              <h3>Příjezd a parkování</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">10:00</span>
-              <h3 data-i18n="program.timeline.mass">Svatební mše svatá</h3>
+              <h3>Svatební mše svatá</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">11:30</span>
-              <h3 data-i18n="program.timeline.photosChurch">Focení před kostelem</h3>
+              <h3>Focení před kostelem</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">12:30</span>
-              <h3 data-i18n="program.timeline.lunch">Oběd</h3>
+              <h3>Oběd</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">14:00</span>
-              <h3 data-i18n="program.timeline.photosCouple">Focení novomanželů</h3>
+              <h3>Focení novomanželů</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">16:00</span>
-              <h3 data-i18n="program.timeline.cake">Krájení dortu</h3>
+              <h3>Krájení dortu</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">17:30</span>
-              <h3 data-i18n="program.timeline.musicDance">Živá hudba a tanec</h3>
+              <h3>Živá hudba a tanec</h3>
             </div>
           </li>
           <li class="done">
             <div class="date">
               <span class="time">00:00</span>
-              <h3 data-i18n="program.timeline.screening">Promítání</h3>
+              <h3>Promítání</h3>
             </div>
           </li>
         </ul>
       </div>
-      <p class="text-center" data-i18n="program.note">
+      <p class="text-center">
         Harmonogram je orientační. Neměnný je pouze čas mše svaté.
       </p>
     </section>
 
     <!-- DARK SECTION -->
     <section id="prayer-stones" class="section section--dark section-prayer-stones">
-      <h2 data-i18n="prayer.title">Modlitební kamínky</h2>
-      <p data-i18n="prayer.p1">
+      <h2>Modlitební kamínky</h2>
+      <p>
         Chceš i na dálku přispět ke zdaru naší svatby a nevíš jak na to? Máme tu příležitost právě pro Tebe! Stačí, když
         se na chvíli zastavíš a zamyslíš se. Stačí jen kratičké přání či modlitba, nebo i citát pro tuto příležitost.
         Kraťoučký text, který si napíšeme na oblázek. Ty nám doufejme vydláždí cestu, až ke dni D.
       </p>
-      <p data-i18n="prayer.p2">
+      <p>
         P. S. Přání do manželství si klidně také promysli, ale na to bude příležitost později.
       </p>
       <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfDAPSIPw6tn_wQM_dk1D3Pe3rfmdtIGFj52ZlvhOu2EXq4yA/viewform?usp=dialog"
-        target="_blank" rel="noopener" data-i18n="prayer.button">
+        target="_blank" rel="noopener">
         Pošli modlitbu
       </a>
     </section>
@@ -206,26 +201,26 @@
     <!-- LIGHT SECTION -->
     <section id="mass" class="section section--light section-mass">
       <div class="mass-content">
-        <h2 data-i18n="mass.title">Mše svatá</h2>
-        <p data-i18n-html="mass.p1">
+        <h2>Mše svatá</h2>
+        <p>
           Svatební obřad bude součástí <strong>mše svaté</strong>, která je pro nás tou nejdůležitější částí celého dne.
           Potrvá zhruba <strong>hodinu</strong> až <strong>hodinu a půl</strong>.
         </p>
-        <p data-i18n-html="mass.p2">
+        <p>
           Během mše se věřící střídají v různých postojích – stojí, sedí nebo klečí.
           Většina lidí se jednoduše řídí tím, co dělají ostatní, ale pro tebe to rozhodně není povinnost.
           Udělej jen to, v čem se cítíš dobře. Žádné gesto není nutné.
         </p>
-        <p data-i18n-html="mass.p3">
+        <p>
           Součástí mše je také <strong>svaté přijímání</strong>.
           Věřící, kteří jsou připraveni, jdou přijmout eucharistii.
           Pokud k této svátosti přistupovat nemůžeš nebo nechceš, máš dvě jednoduché možnosti:
         </p>
-        <p data-i18n-html="mass.p4">
+        <p>
           <strong>• zůstat sedět</strong> na svém místě, nebo<br>
           <strong>• přidat se do řady</strong> a poprosit kněze o požehnání.
         </p>
-        <p data-i18n-html="mass.p5">
+        <p>
           Pokud zvolíš druhou možnost, stačí, když si před ústa položíš <strong>zdvižený ukazováček</strong>
           (stejné gesto, jako když žádáš o ticho). Kněz díky tomu pozná, že nejdeš k přijímání, ale právě pro
           <strong>požehnání</strong>.
@@ -236,8 +231,8 @@
     <!-- IMAGE SECTION -->
     <section id="accommodation" class="section section--image section-accommodation">
       <div class="accommodation-content">
-        <h2 data-i18n="accommodation.title">Ubytování</h2>
-        <p data-i18n="accommodation.p1">
+        <h2>Ubytování</h2>
+        <p>
           V těsné blízkosti kostela je areál, do něhož se přesuneme po svatební mši svaté. Možnosti ubytování jsou v
           pokoji přímo na faře nebo ve venkovních chatkách. Na faře jsou 4 pokoje po 3 až 6 lůžkách - celkem 17míst.
           Venkovních chatek je osm, každá pro čtyři osoby - celkem 32 míst.
@@ -247,28 +242,28 @@
 
     <!-- DARK SECTION -->
     <section id="rsvp" class="section section--dark section-rsvp">
-      <h2 data-i18n="rsvp.title">Potvrzení účasti</h2>
-      <p data-i18n="rsvp.p1">Prosíme o vyplnění formuláře, ať víme, zda-li s vámi můžeme počítat.</p>
+      <h2>Potvrzení účasti</h2>
+      <p>Prosíme o vyplnění formuláře, ať víme, zda-li s vámi můžeme počítat.</p>
       <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfVgrJyFV7lLuqm75OjyQH50z5Ay49IBu2N9anCnEG-T8VSxg/viewform?usp=header"
-        target="_blank" rel="noopener" data-i18n="rsvp.button">
+        target="_blank" rel="noopener">
         Potvrdit účast
       </a>
     </section>
 
     <!-- LIGHT SECTION -->
     <section id="contacts" class="section section--light section-contacts">
-      <h2 data-i18n="contacts.title">Naše kontakty</h2>
-      <p class="text-center" data-i18n-html="contacts.intro">
+      <h2>Naše kontakty</h2>
+      <p class="text-center">
         Nevíš? Neznáš? Nerozumíš? <br> Nevíš-li si rady: Oslov naše kamarády
       </p>
 
-      <h3 data-i18n="contacts.organisation.title">Organizace svatby</h3>
+      <h3>Organizace svatby</h3>
       <div class="container">
         <div class="contact">
-          <img src="assets/image/maminka.jpeg" alt="Lydie Uhlířová" data-i18n-attr="alt:alt.mom">
+          <img src="assets/image/maminka.jpeg" alt="Lydie Uhlířová">
           <ul>
             <li>Lydie Uhlířová</li>
-            <li data-i18n="contacts.organisation.role.mother">maminka</li>
+            <li>maminka</li>
             <li><a href="tel:+420739002736">739 002 736</a></li>
           </ul>
         </div>
@@ -276,25 +271,25 @@
 
       <div class="container">
         <div class="contact">
-          <img src="assets/image/PavlinkaR.jpeg" alt="Pavlínka Regnerová" data-i18n-attr="alt:alt.pavlinka">
+          <img src="assets/image/PavlinkaR.jpeg" alt="Pavlínka Regnerová">
           <ul>
             <li>Pavlínka Regnerová</li>
-            <li data-i18n="contacts.organisation.role.brideWitness">svědkyně nevěsty</li>
+            <li>svědkyně nevěsty</li>
             <li><a href="tel:+420605993444">605 993 444</a></li>
           </ul>
         </div>
         <div class="contact">
-          <img src="assets/image/MojmirM.jpeg" alt="Mojmír Michálek" data-i18n-attr="alt:alt.mojmir">
+          <img src="assets/image/MojmirM.jpeg" alt="Mojmír Michálek">
           <ul>
             <li>Mojmír Michálek</li>
-            <li data-i18n="contacts.organisation.role.groomWitness">svědek ženicha</li>
+            <li>svědek ženicha</li>
             <li><a href="tel:+420722299309">722 299 309</a></li>
           </ul>
         </div>
       </div>
 
-      <h3 data-i18n="contacts.drivers.title">Řidiči</h3>
-      <p class="text-center" data-i18n-html="contacts.drivers.text">
+      <h3>Řidiči</h3>
+      <p class="text-center">
         &nbsp; &nbsp; &nbsp; Naši skvělí řidiči Vás bezpečně dopraví z večerní oslavy domů, popřípadě Vám po obědě
         pomohou
         dostat Vaše auto z místa
@@ -302,7 +297,7 @@
       </p>
       <div class="container">
         <div class="contact">
-          <img src="assets/image/MichalK.jpeg" alt="Michal Kozub" data-i18n-attr="alt:alt.driver">
+          <img src="assets/image/MichalK.jpeg" alt="Michal Kozub">
           <ul>
             <li>Michal Kozub</li>
             <li><a href="tel:+420">+420 …</a></li>
@@ -310,17 +305,17 @@
         </div>
       </div>
 
-      <h3 data-i18n="contacts.newlyweds.title">Novomanželé</h3>
+      <h3>Novomanželé</h3>
       <div class="container">
         <div class="contact">
-          <img src="assets/image/Kira.jpeg" alt="Kristýna Kwasniaková" data-i18n-attr="alt:alt.bride">
+          <img src="assets/image/Kira.jpeg" alt="Kristýna Kwasniaková">
           <ul>
             <li>Kristýna Kwasniaková</li>
             <li><a href="tel:+420732165536">732 165 536</a></li>
           </ul>
         </div>
         <div class="contact">
-          <img src="assets/image/VasekU.jpeg" alt="Vašek Uhlíř" data-i18n-attr="alt:alt.groom">
+          <img src="assets/image/VasekU.jpeg" alt="Vašek Uhlíř">
           <ul>
             <li>Vašek Uhlíř</li>
             <li><a href="tel:+420739524389">739 524 389</a></li>
@@ -331,34 +326,44 @@
 
     <!-- DARK SECTION -->
     <section id="faq" class="section section--dark section-faq">
-      <h2 data-i18n="faq.title">Odpovědi na Vaše otázky</h2>
+      <h2>Odpovědi na Vaše otázky</h2>
       <div class="box">
-        <p class="question" data-i18n="faq.q1">Kde máme parkovat?</p>
-        <p class="answer" data-i18n="faq.a1">Parkování je možné dole v zatáčce před kostelem, u kaple Panny Marie Salettské nebo v Javorníku, odkud tě naši řidiči přivezou. Vše je přehledně označeno.</p>
+        <p class="question">Kde máme parkovat?</p>
+        <p class="answer">Parkování je možné dole v zatáčce před kostelem, u kaple Panny Marie Salettské nebo v
+          Javorníku,
+          odkud tě naši řidiči přivezou. Vše je přehledně označeno.</p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q2">Jaký je dress code?</p>
-        <p class="answer" data-i18n="faq.a2">Naše svatba nebude tak docela seriózní událost, ale rádi tě uvidíme v pěkném a pohodlném oblečení. Hlavní je to společně oslavit.</p>
+        <p class="question">Jaký je dress code?</p>
+        <p class="answer">Naše svatba nebude tak docela seriózní událost, ale rádi tě uvidíme v pěkném a pohodlném
+          oblečení. Hlavní je to společně oslavit.
+        </p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q3">Jak je to s jídlem - bude i vegetariánská/bezlepková možnost?</p>
-        <p class="answer" data-i18n="faq.a3">Ano, dej nám prosím pomocí formuláře o potvrzení účasti vědět, pokud máš speciální požadavky. Rádi se přizpůsobíme, jestliže to bude alespoň trochu v našich silách.</p>
+        <p class="question">Jak je to s jídlem - bude i vegetariánská/bezlepková možnost?</p>
+        <p class="answer">Ano, dej nám prosím pomocí formuláře o potvrzení účasti vědět, pokud máš speciální požadavky.
+          Rádi se přizpůsobíme, jestliže to bude alespoň trochu v našich silách.
+        </p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q4">Bude možnost v místě oslavy přespat?</p>
-        <p class="answer" data-i18n="faq.a4">Ano, budeme za tvou přítomnost moc rádi. Je možné přijet na faru už o několik dní dřív a stejně tak po svatbě nemusíš hned odjíždět. Více informací najdeš v záložce Ubytování.</p>
+        <p class="question">Bude možnost v místě oslavy přespat?</p>
+        <p class="answer">Ano, budeme za tvou přítomnost moc rádi. Je možné přijet na faru už o několik dní dřív a
+          stejně
+          tak po svatbě nemusíš hned odjíždět. Více informací najdeš v záložce Ubytování.
+        </p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q5">Máš nápad na zábavný/zajímavý program?</p>
-        <p class="answer" data-i18n="faq.a5">Za každý nápad budeme rádi. Jeho realizaci, prosíme, prober s Pavlínkou - svědkyní nevěsty.</p>
+        <p class="question">Máš nápad na zábavný/zajímavý program?</p>
+        <p class="answer">Za každý nápad budeme rádi. Jeho realizaci, prosíme, prober s Pavlínkou - svědkyní nevěsty.
+        </p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q6">Rád bych novomanžele obdaroval…</p>
-        <p class="answer" data-i18n="faq.a6">…</p>
+        <p class="question">Rád bych novomanžele obdaroval…</p>
+        <p class="answer">…</p>
       </div>
       <div class="box">
-        <p class="question" data-i18n="faq.q7">Můžu pro Vás ještě něco udělat?</p>
-        <p class="answer" data-i18n-html="faq.a7">
+        <p class="question">Můžu pro Vás ještě něco udělat?</p>
+        <p class="answer">
           Ano! Budeme moc rádi, když se zapojíš do našich Modlitebních kamínků, jejichž texty si společně přečteme dva
           týdny před svatbou během přípravného víkendu v Travné.
           <br>A potěší nás i to, když na nás budeš myslet jakýmkoliv způsobem –
