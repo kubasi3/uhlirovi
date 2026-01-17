@@ -1,6 +1,10 @@
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@500&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap";
 
+:root{
+  --section-side-pad: clamp(15rem, 10vw, 20rem);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -937,10 +941,10 @@ li.done::marker {
 
 .section-mass .mass-content {
   /* text na PC v pravé třetině */
+  margin-right: var(--section-side-pad);
   width: min(84rem, 66vw);
   max-width: 90vw;
   margin-left: auto;
-  margin-right: clamp(1rem, 6vw, 4rem);
 
   padding: 1rem 1rem;
   box-sizing: border-box;
@@ -974,21 +978,92 @@ li.done::marker {
   }
 }
 
-/* ACCOMMODATION (IMAGE SECTION) */
+/* ACCOMMODATION (IMAGE SECTION) – zrcadlově jako MASS */
 
 .section-accommodation {
-    background-image: url(assets/image/background2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  position: relative;
+  overflow: hidden;
+
+  background-image:
+    linear-gradient(to right,
+      rgba(255, 250, 237, 0.96) 0%,
+      rgba(255, 250, 237, 0.82) 40%,
+      rgba(255, 250, 237, 0.00) 75%
+    ),
+    url(assets/image/background2.jpeg);
+
+  background-repeat: no-repeat, no-repeat;
+
+  /* ukotvi obrázek vpravo -> při zmenšení se ořezává hlavně zleva */
+  background-size: cover, auto 100%;
+  background-position: center, right center;
+
+  /* hýbe se se sekcí */
+  background-attachment: scroll, scroll;
+
+  align-items: stretch;
+  box-sizing: border-box;
 }
 
-.section-accommodation p {
-    background: rgba(240, 240, 240, 0.7);
-    padding: 1rem;
-    border-radius: 8px;
+.section-accommodation::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(240, 240, 240, .337254902);
+  opacity: 0; /* desktop necháme gradient */
+  pointer-events: none;
+  z-index: 0;
 }
+
+.section-accommodation .accommodation-content {
+    margin-left: var(--section-side-pad);
+    position: relative;
+    z-index: 1;
+
+    /* text vlevo (levá třetina) */
+    width: min(84rem, 66vw);
+    max-width: 90vw;
+    margin-right: auto;
+
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+.section-accommodation .accommodation-content h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.section-accommodation .accommodation-content p {
+  width: 100%;
+  max-width: none;
+}
+
+@media (max-width: 700px) {
+  .section-accommodation {
+    background-image: url(assets/image/background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right center;
+    background-attachment: scroll;
+    align-items: center;
+  }
+
+  .section-accommodation::before {
+    opacity: 1; /* jednotné “mléko” na mobilu */
+  }
+
+  .section-accommodation .accommodation-content {
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-accommodation .accommodation-content h2 {
+    text-align: center;
+  }
+}
+
 
 /* GENERAL */
 
