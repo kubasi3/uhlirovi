@@ -925,6 +925,9 @@ li.done::marker {
 }
 
 .section-mass {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   /* pozadí v sekci (hýbe se spolu s obsahem) */
   background-image:
     linear-gradient(to left,
@@ -959,6 +962,8 @@ li.done::marker {
 }
 
 .section-mass .mass-content {
+  position: relative;
+  z-index: 1;
   /* text na PC v pravé třetině */
   margin-right: var(--section-side-s-pad);
   margin-left: var(--section-side-l-pad);
@@ -1059,27 +1064,41 @@ li.done::marker {
 }
 
 @media (max-width: 700px) {
-    .section-accommodation,
-    .section-mass {
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        background-position: center center;
-        background-attachment: scroll;
-        align-items: center;
-    }
 
-  .section-accommodation::before,
-  .section-mass::before {
-    opacity: 1; /* jednotné “mléko” na mobilu */
+  /* MOBIL: jen fotka (bez gradientu) + centrované pozadí */
+  .section-mass{
+    background-image: url(assets/image/background32.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    align-items: center;
   }
 
-  .section-accommodation .accommodation-content {
+  .section-accommodation{
+    background-image: url(assets/image/background22.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    align-items: center;
+  }
+
+  /* MOBIL: jednotné “mléko” jako welcome */
+  .section-mass::before,
+  .section-accommodation::before{
+    opacity: 1;
+  }
+
+  .section-mass .mass-content,
+  .section-accommodation .accommodation-content{
     width: 90vw;
     margin: 0;
     padding: 0;
   }
 
-  .section-accommodation .accommodation-content h2 {
+  .section-mass .mass-content h2,
+  .section-accommodation .accommodation-content h2{
     text-align: center;
   }
 }
