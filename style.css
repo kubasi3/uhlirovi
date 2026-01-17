@@ -2,7 +2,10 @@
 @import "https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap";
 
 :root{
-  --section-side-pad: clamp(15rem, 10vw, 20rem);
+    --section-side-pad: clamp(1.5rem, 10vw, 20rem);
+    --section-side-s-pad: clamp(1.5rem, 10vw, 20rem);
+    --section-side-l-pad: min(40vw, 70rem);
+    --section-text-width: min(84rem, 40vw);
 }
 
 html {
@@ -941,10 +944,10 @@ li.done::marker {
 
 .section-mass .mass-content {
   /* text na PC v pravé třetině */
-  margin-right: var(--section-side-pad);
-  width: min(84rem, 66vw);
+  margin-right: var(--section-side-s-pad);
+  margin-left: var(--section-side-l-pad);
+  width: auto;
   max-width: 90vw;
-  margin-left: auto;
 
   padding: 1rem 1rem;
   box-sizing: border-box;
@@ -1021,9 +1024,9 @@ li.done::marker {
     z-index: 1;
 
     /* text vlevo (levá třetina) */
-    width: min(84rem, 66vw);
-    max-width: 90vw;
-    margin-right: auto;
+    margin-right: var(--section-side-l-pad);
+    margin-left: var(--section-side-s-pad);
+    width: auto;
 
     padding: 1rem 1rem;
     box-sizing: border-box;
