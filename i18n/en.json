@@ -15,6 +15,7 @@
     "program": "Wedding day",
     "prayer": "Prayer",
     "mass": "Mass",
+    "feast": "Wedding feast",
     "accommodation": "Accommodation",
     "rsvp": "RSVP",
     "contacts": "Contacts"
@@ -70,6 +71,10 @@
     "p3": "Mass also includes <strong>Holy Communion</strong>. Those who are prepared come forward to receive the Eucharist. If you can’t or don’t want to receive this sacrament, you have two simple options:",
     "p4": "<strong>• stay seated</strong> in your place, or<br><strong>• join the line</strong> and ask the priest for a blessing.",
     "p5": "If you choose the second option, simply place your <strong>raised index finger</strong> in front of your lips (the same gesture as asking for silence). The priest will understand that you are not receiving Communion, but coming for a <strong>blessing</strong>."
+  },
+  "feast": {
+    "title": "Wedding feast",
+    "p1": "If you're invited to the celebration after the ceremony, please note that we won’t be hosting a traditional wedding lunch. It won’t be anything grand. What matters most is that we get to spend as much time together with you as possible. That’s why we decided to prepare two or three “main dishes”—some with meat, some without—so everyone can choose what and how much they’d like. In addition, there will be a buffet and of course cake :)) It won’t be quite as formal, but we hope we’ll enjoy it together."
   },
   "accommodation": {
     "title": "Accommodation",

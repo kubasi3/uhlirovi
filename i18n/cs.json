@@ -15,6 +15,7 @@
     "program": "Svatební den",
     "prayer": "Modlitba",
     "mass": "Mše svatá",
+    "feast": "Svatební hostina",
     "accommodation": "Ubytování",
     "rsvp": "Potvrzení účasti",
     "contacts": "Kontakty"
@@ -62,6 +63,10 @@
     "p1": "Chceš i na dálku přispět ke zdaru naší svatby a nevíš jak na to? Máme tu příležitost právě pro Tebe! Stačí, když se na chvíli zastavíš a zamyslíš se. Stačí jen kratičké přání či modlitba, nebo i citát pro tuto příležitost. Kraťoučký text, který si napíšeme na oblázek. Ty nám doufejme vydláždí cestu, až ke dni D.",
     "p2": "P. S. Přání do manželství si klidně také promysli, ale na to bude příležitost později.",
     "button": "Pošli modlitbu"
+  },
+  "feast": {
+    "title": "Svatební hostina",
+    "p1": "Jestliže jsi pozvaný na oslavu po obřadu, věz, že nebudeme pořádat klasický svatební oběd. Nepůjde o nic velkolepého. Důležité je, abychom s tebou/s vámi prožili co nejvíce společného času. Proto jsme se rozhodli připravit dvě nebo tři “hlavní jídla” - některé s masem, některé bez masa - ze kterých si každý vybere co a kolik bude chtít. Kromě toho bude připraven raut a nebude chybět dort :)) Nebude to tolik slavnostní, ale doufáme, že si to společně užijeme."
   },
   "mass": {
     "title": "Mše svatá",
