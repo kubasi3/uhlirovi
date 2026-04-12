@@ -34,7 +34,7 @@
       "title": "Ceremony",
       "textBefore": "The wedding Mass will be celebrated in",
       "linkText": "the Church of Our Lady",
-      "textAfter": "at 10:00"
+      "textAfter": "at 11:00"
     },
     "celebration": {
       "title": "Wedding reception",
@@ -60,7 +60,7 @@
   },
   "prayer": {
     "title": "Prayer stones",
-    "p1": "Would you like to support our wedding from afar and aren’t sure how? Here’s a chance just for you! Pause for a moment and reflect. A short wish or prayer—or even a quote for this occasion—is enough. We’ll write your short text on a small stone. We hope they’ll pave the way all the way to our big day.",
+    "p1": "Would you like to support our wedding from afar and aren’t sure how? Here’s a chance just for you! Pause for a moment and reflect. A short wish or prayer—or even a quote for this occasion—is enough. We’ll write your short text on a small stone. We hope they’ll pave the way all the way to our big day. If you’d like to write or draw on a stone yourself, we’ll treasure it even more. Thank you 🫶",
     "p2": "P.S. Feel free to think of a wedding wish for us as well—but there will be time for that later.",
     "button": "Send a prayer"
   },
@@ -117,7 +117,7 @@
     "q5": "Do you have an idea for a fun / interesting activity?",
     "a5": "We’ll be happy for any idea. Please coordinate its implementation with Pavlínka—the bride’s witness.",
     "q6": "I would like to give the newlyweds a gift…",
-    "a6": "…",
+    "a6": "Your presence at our wedding is the greatest gift to us. But if you would still like to give us something extra, we would be grateful for a financial contribution.",
     "q7": "Can I do anything else to help?",
     "a7": "Yes! We’ll be very happy if you join our Prayer Stones—together we’ll read the texts two weeks before the wedding during our preparation weekend in Travná.<br>And it would also mean a lot if you keep us in mind in any way—<br>- for us as newlyweds, that we enter marriage with love, forgiveness, unity, and peace<br>- for the preparations, that they are a time of meeting, joy, and creating together<br>- and for everyone involved, that our day becomes a blessing for everyone who comes"
   },
