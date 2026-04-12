@@ -123,6 +123,10 @@ p {
   padding: var(--section-pad-y) 0;
 }
 
+.section p {
+  width: 80vw;
+}
+
 .section--light {
   background-color: var(--color-bg-light);
   color: var(--color-text-dark);
@@ -459,6 +463,7 @@ p {
 }
 
 .program .program-card {
+  max-width: 80vw;
   background-color: var(--surface-card);
   margin: 1rem;
   padding: 1rem;
@@ -631,7 +636,7 @@ p {
 
 /* RSVP / Prayer stones */
 .section-rsvp p {
-  width: 90vw;
+  width: 80vw;
   text-align: center;
 }
 
