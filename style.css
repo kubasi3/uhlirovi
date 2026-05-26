@@ -845,6 +845,11 @@ p {
   max-width: none;
 }
 
+.section-accommodation .accommodation-note {
+  font-weight: 700;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   .section-mass,
   .section-accommodation {

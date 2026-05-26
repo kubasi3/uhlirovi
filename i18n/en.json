@@ -78,7 +78,8 @@
   },
   "accommodation": {
     "title": "Accommodation",
-    "p1": "Right next to the church there is an area where we will move after the wedding Mass. Accommodation is available either in rooms at the parish house or in outdoor cabins. There are 4 rooms in the parish house with 3 to 6 beds—17 beds total. There are eight outdoor cabins, each for four people—32 beds total."
+    "p1": "Right next to the church there is an area where we will move after the wedding Mass. Accommodation is available either in rooms at the parish house or in outdoor cabins. There are 4 rooms in the parish house with 3 to 6 beds—17 beds total. There are eight outdoor cabins, each for four people—32 beds total.",
+    "noSignal": "There is no mobile signal or internet in Travná."
   },
   "rsvp": {
     "title": "RSVP",
