@@ -227,7 +227,7 @@
   // =========================
 
   // Interpreted in the visitor's local timezone.
-  const WEDDING_START_MS = new Date('2026-06-06T10:00:00').getTime();
+  const WEDDING_START_MS = new Date('2026-06-06T11:00:00').getTime();
   const counterEl = document.getElementById('counter');
 
   const MS = {
